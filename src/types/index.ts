@@ -12,14 +12,24 @@ export type Project = {
   techStack: string[];
 };
 
+export type CaseStudySection = {
+  title: string;
+  content: string;
+};
+
+export type Feature = {
+  slug: string;
+  title: string;
+  summary: string;
+  caseStudy: CaseStudySection[];
+};
+
 export type Accomplishment = {
   slug: string;
   title: string;
   company: string;
   period: string;
-  description: string[]; // Array of strings for bullet points
-  caseStudy: {
-    title: string;
-    content: string;
-  }[];
+  location: string;
+  description: string[];
+  features?: Feature[];
 };

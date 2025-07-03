@@ -43,53 +43,73 @@ export const projects: Project[] = [
 
 export const accomplishments: Accomplishment[] = [
   {
-    slug: 'lead-product-manager-techcorp',
-    title: 'Lead Product Manager',
-    company: 'TechCorp Inc.',
-    period: '2020 - Present',
+    slug: 'procare-solutions-pm',
+    company: 'Procare Solutions',
+    title: 'Product Manager',
+    location: 'Denver, CO (Remote)',
+    period: 'January 2022 - Present',
     description: [
-      'Led the development of a new B2B SaaS product, growing it from 0 to $1M ARR in 18 months.',
-      'Managed a cross-functional team of 15 engineers, designers, and marketers.',
-      'Improved user retention by 25% through data-driven feature enhancements and A/B testing.',
+      'Played a critical role in shaping GTM and product strategy for flagship SaaS platform, increasing adoption from 300K monthly to 1M+ daily active users by aligning roadmap to customer feedback and market signals.',
+      'Repaired trust with key Enterprise accounts resulting in an increase in NPS from a -14 to a +40 within an 18 month development period by reflecting a deep understanding of their business in solutions and strengthening cross-functional alignment.',
+      'Reduced failed card transactions by 25% through payment workflow optimization, achieving desired outcomes of scalability and UX goals while encouraging use of our internal payments solution.',
+      'Led external API development and strategic partner integrations, unlocking scalable enterprise workflows and supporting platform growth strategy.',
+      'Drove increased feature adoption by championing experimentation culture—combining Pendo data with Intercom feedback to inform positioning, customer education, and iterative campaign strategy.',
+      'Operated as a Support Engineer on the Platform Engineering team and leveraged New Relic to make informed engineering decisions and fostered a culture of Product Ownership by connecting user insights to performance indicators.',
+      'Defined performance and uptime SLAs for core platform in collaboration with engineering to ensure reliability standards for Enterprise contracts and platform scaling.'
     ],
-    caseStudy: [
+    features: [
       {
-        title: 'Challenge',
-        content: 'The market for our existing product line was becoming saturated, and the company needed to diversify its revenue streams. We identified an opportunity in the adjacent market of enterprise data analytics but had no existing product.',
+        slug: 'payment-workflow-optimization',
+        title: 'Payment Workflow Optimization',
+        summary: 'Reduced failed card transactions by 25% through payment workflow optimization, achieving desired outcomes of scalability and UX goals while encouraging use of our internal payments solution.',
+        caseStudy: [
+          { title: 'Challenge', content: 'A high rate of failed credit card transactions was causing significant revenue loss and customer frustration. The existing payment workflow was convoluted and lacked intelligent error handling.' },
+          { title: 'Action', content: 'I led a deep dive into payment failure points, analyzing transaction data and user session recordings. I designed a streamlined workflow with clearer error messaging, proactive card-updater prompts, and integrated with a new payment gateway API for better decline-code handling. I worked with engineering to implement this as an A/B test.' },
+          { title: 'Result', content: 'The new workflow resulted in a 25% reduction in failed transactions within three months, directly recovering thousands in monthly revenue. Customer support tickets related to payment issues dropped by 40%, and the A/B test showed a clear winner, which was rolled out to all users.' },
+        ]
       },
       {
-        title: 'Action',
-        content: 'I conducted over 50 customer interviews to validate the problem and define the MVP scope. I developed the product roadmap, wrote user stories, and worked daily with the engineering team to ensure we were building the right solution. I also collaborated with marketing to create a go-to-market strategy.',
+        slug: 'enterprise-nps-turnaround',
+        title: 'Enterprise NPS Turnaround',
+        summary: 'Repaired trust with key Enterprise accounts resulting in an increase in NPS from a -14 to a +40 within an 18 month development period.',
+        caseStudy: [
+          { title: 'Challenge', content: 'Key enterprise accounts were at risk of churn due to product instability and a perception that their needs were not being met. The Net Promoter Score (NPS) from this segment was a concerning -14.' },
+          { title: 'Action', content: 'I established a dedicated feedback loop with these enterprise clients, including quarterly business reviews and a beta program for new features. I translated their specific pain points into actionable user stories and prioritized them on the roadmap, ensuring visibility and cross-functional alignment on delivering these solutions.' },
+          { title: 'Result', content: 'Over an 18-month period, consistent delivery on our promises and a clear commitment to their success rebuilt trust. The NPS score from this segment climbed from -14 to +40, churn risk was eliminated, and two of the accounts expanded their contracts.' },
+        ]
       },
       {
-        title: 'Result',
-        content: 'The product launched on time and on budget. We secured our first 10 enterprise customers within 3 months and achieved a $1M ARR milestone in 18 months, establishing a new major revenue source for the company.',
-      },
+        slug: 'api-partner-integration',
+        title: 'External API & Partner Integration',
+        summary: 'Led external API development and strategic partner integrations, unlocking scalable enterprise workflows and supporting platform growth strategy.',
+        caseStudy: [
+            { title: 'Challenge', content: 'Enterprise customers required seamless integration with their existing systems (like HRIS and accounting software) to reduce manual data entry and streamline their operations. The lack of an external API was a major sales blocker.' },
+            { title: 'Action', content: 'I defined the strategy for our public API, identifying the key endpoints needed for MVP based on customer interviews and sales feedback. I managed the development process, created comprehensive API documentation, and worked with two strategic partners to build the first integrations on the new platform.' },
+            { title: 'Result', content: 'The launch of the external API and initial partner integrations unlocked a new tier of enterprise clients, contributing to a 15% increase in deal size. The API is now a core part of our enterprise offering and supports dozens of custom integrations.' },
+        ]
+      }
+    ]
+  },
+  {
+    slug: 'procare-solutions-tl',
+    company: 'Procare Solutions',
+    title: 'Technical Support Team Lead',
+    location: 'Denver, CO (Remote)',
+    period: 'January 2021 - January 2022',
+    description: [
+      'Developed scalable troubleshooting processes and training resources that enhanced cross-team onboarding and reduced support friction during post-acquisition integration.',
+      'Partnered with Product and Engineering to redesign escalation workflows, accelerating defect identification and improving visibility into user pain points.',
+      'Led a high-performing support team of 6, mentoring 3 into new roles and fostering a collaborative culture that strengthened cross-functional communication and operational agility.'
     ],
   },
   {
-    slug: 'senior-software-engineer-innovatech',
-    title: 'Senior Software Engineer',
-    company: 'InnovaTech Solutions',
-    period: '2017 - 2020',
+    slug: 'kinderlime-csm',
+    company: 'Kinderlime',
+    title: 'Customer Success Manager',
+    location: 'Santa Clara, CA',
+    period: 'August 2019 - January 2021',
     description: [
-      'Architected and implemented a microservices-based backend for a high-traffic e-commerce platform.',
-      'Reduced API response times by 60% by optimizing database queries and introducing a caching layer.',
-      'Mentored junior engineers, improving team-wide code quality and best practices.',
-    ],
-    caseStudy: [
-      {
-        title: 'Challenge',
-        content: 'The company\'s monolithic e-commerce backend was struggling to handle peak traffic during holiday seasons, leading to frequent outages and lost revenue. It was also slow and difficult to update.',
-      },
-      {
-        title: 'Action',
-        content: 'I led the initiative to re-architect the backend into a distributed system of microservices. I designed the overall architecture, chose the tech stack (Node.js, Docker, Kubernetes), and led a team of 5 engineers in the migration. We broke down the monolith into services for products, orders, users, and payments.',
-      },
-      {
-        title: 'Result',
-        content: 'The new architecture eliminated downtime during peak periods and allowed for independent scaling of services. Average API response times dropped from 500ms to under 200ms. The development cycle for new features was also cut in half, as teams could now work on services in parallel.',
-      },
-    ],
-  },
+      'Built and scaled a Customer Success playbook during a period of 3x growth, overhauling workflows, training collateral, and toolsets to support rapid onboarding and user retention in a startup environment.'
+    ]
+  }
 ];
