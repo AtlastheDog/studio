@@ -17,7 +17,7 @@ export default function Home() {
                 Matt Casey
               </h1>
               <p className="mt-6 text-lg leading-8 text-foreground/80 md:text-xl">
-                Strategic and technically fluent Product Manager with 5+ years of experience spanning early-stage growth, enterprise solutions, and payments. Proven ability to drive product adoption, rebuild enterprise trust, and scale SaaS platforms to millions of daily users. Skilled at translating user needs into business impact, fostering a culture of experimentation, and delivering data-informed solutions that accelerate growth.
+                Strategic and technically fluent Product Manager with experience with early-stage startups, Private Equity backed high-growth environments, and scaling a product up to 1 million DAU. Skilled at translating user needs into business impact, fostering a culture of experimentation, and delivering data-informed solutions that accelerate growth.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <Button asChild size="lg">
