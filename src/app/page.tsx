@@ -32,7 +32,7 @@ export default function Home() {
             </div>
             <div className="order-1 md:order-2">
                <Image
-                  src="/matt-casey-headshot.jpg"
+                  src="/20250703_112450.jpg"
                   alt="A professional headshot of Matt Casey"
                   width={600}
                   height={600}
