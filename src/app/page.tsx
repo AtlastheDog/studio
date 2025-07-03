@@ -31,9 +31,8 @@ export default function Home() {
             </div>
             <div className="order-1 md:order-2">
                <Image
-                  src="https://placehold.co/600x600.png"
+                  src="/matt-casey-headshot.jpg"
                   alt="A professional headshot of Matt Casey"
-                  data-ai-hint="professional headshot"
                   width={600}
                   height={600}
                   priority
