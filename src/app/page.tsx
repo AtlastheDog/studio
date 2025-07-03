@@ -31,13 +31,12 @@ export default function Home() {
             </div>
             <div className="order-1 md:order-2">
                <Image
-                  src="https://placehold.co/600x600.png"
+                  src="/matt-casey-headshot.jpg"
                   alt="A professional headshot of Matt Casey"
                   width={600}
                   height={600}
                   priority
                   className="rounded-full aspect-square object-cover shadow-2xl mx-auto w-3/4 md:w-full"
-                  data-ai-hint="professional headshot"
                 />
             </div>
           </div>
