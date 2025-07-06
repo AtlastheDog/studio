@@ -12,7 +12,7 @@ export default function AccomplishmentsPage() {
     <div className="bg-muted">
       <div className="container mx-auto px-4 py-24 sm:py-32">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-6xl">Professional Experience</h1>
+          <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-6xl">Career</h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80">
             A summary of my professional roles and key responsibilities. Below, you'll find detailed case studies on specific features and projects I've led.
           </p>
