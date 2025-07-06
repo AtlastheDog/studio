@@ -11,7 +11,7 @@ import React from "react";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
-  { href: "/accomplishments", label: "Career" },
+  { href: "/career", label: "Career" },
   { href: "/get-to-know-me", label: "Get to Know Me" },
 ];
 
