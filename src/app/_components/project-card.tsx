@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface ProjectCardProps {
   project: Project;
@@ -19,7 +20,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
             alt={project.title}
             width={1200}
             height={800}
-            className="h-full w-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105"
+            className={cn(
+              "h-full w-full transition-transform duration-300 ease-in-out group-hover:scale-105",
+              project.imageFit === "contain" ? "object-contain" : "object-cover"
+            )}
             data-ai-hint={project.imageHint}
           />
         </div>

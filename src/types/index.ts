@@ -4,6 +4,7 @@ export type Project = {
   description: string;
   image: string;
   imageHint: string;
+  imageFit?: "cover" | "contain";
   overview: string;
   objective: string;
   problem: string;
