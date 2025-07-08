@@ -1,13 +1,12 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Heart, User, Coffee, Mountain, Code } from "lucide-react";
-import Image from "next/image";
+import { Mail, Heart, User, BookOpen, Waves, Fish, Compass } from "lucide-react";
 
 const interests = [
-  { icon: Coffee, text: "Artisanal Coffee" },
-  { icon: Mountain, text: "Mountain Hiking" },
-  { icon: Code, text: "Open Source" },
-  { icon: Heart, text: "Volunteering" },
+  { icon: BookOpen, text: "Reading" },
+  { icon: Waves, text: "Water Polo" },
+  { icon: Fish, text: "San Jose Sharks" },
+  { icon: Compass, text: "Exploring" },
 ];
 
 export default function GetToKnowMePage() {
