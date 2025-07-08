@@ -34,7 +34,7 @@ export const projects: Project[] = [
     description: 'A vibrant e-commerce website for a gourmet salsa brand, focusing on brand storytelling and a smooth checkout experience.',
     image: '/pinapicantesalsa.png',
     imageHint: 'food product',
-    overview: 'Pina Picante Salsa needed a digital storefront to sell their unique pineapple-based salsas. We built a visually appealing and mobile-first e-commerce site that tells the story of the brand and makes it easy for customers to purchase products.',
+    overview: "Pina Picante is a salsa brand that my girlfriend and I are launching. We have established our recipe and the stable shelf-life requirements. To assist with our efforts, I have created the following website with V0 and used vercel to deploy to our custom domain.",
     objective: 'Create an online presence that captures the fun, fresh identity of the brand and drives online sales through a seamless user experience.',
     problem: 'The brand had no online sales channel and needed to compete in a crowded market. They required a website that was not just a store, but a marketing tool to build a customer base.',
     solution: 'The website features bold, professional product photography, an engaging "Our Story" section, and a simple, three-step checkout process. We integrated a popular e-commerce backend for easy order management and inventory tracking.',
