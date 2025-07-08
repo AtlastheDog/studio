@@ -1,11 +1,30 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Heart, User, BookOpen, Waves, Compass, Disc3 } from "lucide-react";
+import { Mail, Heart, User, BookOpen, Waves, Compass } from "lucide-react";
+import type { SVGProps } from "react";
+
+const HockeyStickIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M18 3v14a4 4 0 0 1-4 4H6" />
+  </svg>
+);
+
 
 const interests = [
   { icon: BookOpen, text: "Reading" },
   { icon: Waves, text: "Water Polo" },
-  { icon: Disc3, text: "San Jose Sharks" },
+  { icon: HockeyStickIcon, text: "San Jose Sharks" },
   { icon: Compass, text: "Exploring" },
 ];
 
