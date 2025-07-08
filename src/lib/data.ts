@@ -5,7 +5,7 @@ export const projects: Project[] = [
     slug: 'refinance-crm',
     title: 'Refinance CRM',
     description: 'A comprehensive CRM platform designed to streamline the mortgage refinancing process for loan officers and clients.',
-    image: '/Screenshot 2025-07-03 at 1.29.30 PM.png',
+    image: '/Screenshot%202025-07-03%20at%201.29.30%20PM.png',
     imageHint: 'finance dashboard',
     overview: 'The Refinance CRM is a full-stack web application built to optimize the workflow for mortgage refinancing. It provides tools for client management, document tracking, and communication, all within a secure and intuitive interface.',
     objective: 'To reduce the time and complexity involved in the mortgage refinance process by providing a centralized platform for all stakeholders.',
