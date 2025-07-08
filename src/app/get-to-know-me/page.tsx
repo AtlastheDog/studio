@@ -1,11 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Heart, User, BookOpen, Waves, Fish, Compass } from "lucide-react";
+import { Mail, Heart, User, BookOpen, Waves, Compass, Disc3 } from "lucide-react";
 
 const interests = [
   { icon: BookOpen, text: "Reading" },
   { icon: Waves, text: "Water Polo" },
-  { icon: Fish, text: "San Jose Sharks" },
+  { icon: Disc3, text: "San Jose Sharks" },
   { icon: Compass, text: "Exploring" },
 ];
 
