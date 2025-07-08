@@ -32,7 +32,7 @@ export const projects: Project[] = [
     slug: 'pina-picante-salsa',
     title: 'Pina Picante Salsa',
     description: 'A vibrant e-commerce website for a gourmet salsa brand, focusing on brand storytelling and a smooth checkout experience.',
-    image: 'https://placehold.co/1200x800.png',
+    image: '/pinapicantesalsa.png',
     imageHint: 'food product',
     overview: 'Pina Picante Salsa needed a digital storefront to sell their unique pineapple-based salsas. We built a visually appealing and mobile-first e-commerce site that tells the story of the brand and makes it easy for customers to purchase products.',
     objective: 'Create an online presence that captures the fun, fresh identity of the brand and drives online sales through a seamless user experience.',
