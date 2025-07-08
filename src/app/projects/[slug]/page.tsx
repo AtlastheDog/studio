@@ -1,9 +1,11 @@
 import { projects } from "@/lib/data";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, ExternalLink } from "lucide-react";
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -26,6 +28,16 @@ export default function ProjectDetailsPage({ params }: { params: { slug: string 
             {project.title}
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">{project.description}</p>
+          {project.liveUrl && (
+            <div className="mt-6">
+              <Button asChild>
+                <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                  Visit Live Site
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          )}
         </header>
 
         <div className="mb-12 shadow-2xl rounded-lg overflow-hidden">

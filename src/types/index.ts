@@ -10,6 +10,7 @@ export type Project = {
   problem: string;
   solution: string;
   videoUrl?: string;
+  liveUrl?: string;
   techStack: string[];
 };
 

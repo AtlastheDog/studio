@@ -31,13 +31,14 @@ export const projects: Project[] = [
   {
     slug: 'pina-picante-salsa',
     title: 'Pina Picante Salsa',
-    description: 'A vibrant e-commerce website for a gourmet salsa brand, focusing on brand storytelling and a smooth checkout experience.',
+    description: 'A vibrant e-commerce website for a gourmet salsa brand, focusing on brand storytelling.',
     image: '/pinapicantesalsa.png',
     imageHint: 'food product',
     overview: "Pina Picante is a salsa brand that my girlfriend and I are launching. We have established our recipe and the stable shelf-life requirements. To assist with our efforts, I have created the following website with V0 and used vercel to deploy to our custom domain.",
     objective: 'Create an online presence that captures the fun, fresh identity of the brand and drives online sales through a seamless user experience.',
     problem: 'The brand had no online sales channel and needed to compete in a crowded market. They required a website that was not just a store, but a marketing tool to build a customer base.',
     solution: 'The website features bold, professional product photography, an engaging "Our Story" section, and a simple, three-step checkout process. We integrated a popular e-commerce backend for easy order management and inventory tracking.',
+    liveUrl: 'https://www.pinapicantesalsa.com/',
     techStack: ['Shopify', 'Liquid', 'JavaScript', 'CSS/Sass', 'Figma', 'Klaviyo'],
   },
 ];
