@@ -48,7 +48,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
             <h2 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center mb-12">
-              A Quick Introduction
+              Featured Project
             </h2>
             <div className="aspect-video rounded-lg overflow-hidden shadow-2xl">
               <iframe
@@ -69,7 +69,7 @@ export default function Home() {
       <section className="py-24 sm:py-32 bg-muted">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">Featured Projects</h2>
+            <h2 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">Latest Projects</h2>
             <p className="mt-6 text-lg leading-8 text-foreground/80">
               Here are some of the projects I'm most proud of. Each one represents a unique challenge and a learning opportunity.
             </p>
