@@ -9,7 +9,7 @@ import { ArrowRight } from "lucide-react";
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <section className="py-24 sm:py-32 md:py-40">
+      <section className="bg-background py-24 sm:py-32">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
             <div className="order-2 md:order-1">
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="py-24 sm:py-32 bg-background">
+      <section className="py-24 sm:py-32 bg-muted">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
             <h2 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center mb-12">
@@ -66,7 +66,7 @@ export default function Home() {
       </section>
 
 
-      <section className="py-24 sm:py-32 bg-muted">
+      <section className="py-24 sm:py-32 bg-background">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">Latest Projects</h2>
