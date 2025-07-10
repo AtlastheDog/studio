@@ -1,6 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Heart, User, BookOpen, Waves, Compass } from "lucide-react";
+import { Mail, Heart, User, BookOpen, Waves, Compass, Library, BrainCircuit, Briefcase } from "lucide-react";
 import React from "react";
 
 const IceSkateIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -30,6 +30,36 @@ const interests = [
   { icon: IceSkateIcon, text: "San Jose Sharks" },
   { icon: Compass, text: "Exploring" },
 ];
+
+const readingList = {
+    life: {
+        title: "Life",
+        icon: BrainCircuit,
+        books: [
+            "A Short History of Nearly Everything - Bill Bryson",
+            "The Righteous Mind: Why good people are divided by politics and religion. - Jonathan Haidt",
+            "How to win friends and influence people - Dale Carnegie"
+        ]
+    },
+    professional: {
+        title: "Professional",
+        icon: Briefcase,
+        books: [
+            "Great by Choice - Jim Collins",
+            "Deep Work - Cal Newport",
+            "Smart Brevity: The power of saying more with less - Jim VandeHei"
+        ]
+    },
+    productManagement: {
+        title: "Product Management",
+        icon: Library,
+        books: [
+            "Inspired: How to Create Tech Products Customers Love - Marty Cagan",
+            "Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value - Teresa Torres",
+            "Lean UX: Designing Great Products with Agile Teams - Jeff Gothelf"
+        ]
+    }
+}
 
 export default function GetToKnowMePage() {
   return (
@@ -79,7 +109,38 @@ export default function GetToKnowMePage() {
             </Card>
         </div>
 
-        <div className="mt-20 text-center">
+        <div className="mt-24">
+             <div className="mx-auto max-w-4xl text-center">
+                <h2 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">What I'm Reading</h2>
+                <p className="mt-4 text-lg leading-8 text-foreground/80">
+                    Get a glimpse into my brain by reviewing some of my favorite books.
+                </p>
+            </div>
+            <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                {Object.values(readingList).map((category) => (
+                    <Card key={category.title} className="flex flex-col">
+                        <CardHeader>
+                            <div className="flex items-center gap-3">
+                                <category.icon className="h-7 w-7 text-accent"/>
+                                <CardTitle className="font-headline text-2xl">{category.title}</CardTitle>
+                            </div>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            <ul className="space-y-3">
+                                {category.books.map((book, index) => (
+                                    <li key={index} className="flex items-start gap-3">
+                                        <BookOpen className="h-4 w-4 mt-1 text-primary/70 flex-shrink-0" />
+                                        <span>{book}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </CardContent>
+                    </Card>
+                ))}
+            </div>
+        </div>
+
+        <div className="mt-24 text-center">
              <Card className="max-w-2xl mx-auto p-8 bg-background shadow-xl">
                  <CardHeader>
                      <Mail className="h-12 w-12 mx-auto text-primary" />
