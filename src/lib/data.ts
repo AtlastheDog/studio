@@ -10,7 +10,9 @@ export const projects: Project[] = [
     overview: 'The Refinance CRM is a full-stack web application built to optimize the workflow for mortgage refinancing. It provides tools for client management, document tracking, and communication, all within a secure and intuitive interface.',
     objective: 'To reduce the time and complexity involved in the mortgage refinance process by providing a centralized platform for all stakeholders.',
     problem: 'Loan officers often rely on a patchwork of tools like email, spreadsheets, and separate document management systems, leading to inefficiencies, errors, and a poor client experience.',
-    solution: 'We developed a unified dashboard that allows loan officers to manage their client pipeline, track application progress with a visual timeline, securely handle document uploads, and communicate with clients through an integrated messaging system.',
+    solution: {
+      description: 'We developed a unified dashboard that allows loan officers to manage their client pipeline, track application progress with a visual timeline, securely handle document uploads, and communicate with clients through an integrated messaging system.'
+    },
     videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'PostgreSQL', 'Firebase Auth', 'Stripe'],
   },
@@ -24,7 +26,16 @@ export const projects: Project[] = [
     overview: "This project leverages natural language processing (NLP) to create a smart research team. This workflow identifies recent medical advancements, performs deep research on the topics, and compiles the information in an easy to digest email focused on highlighting the impacts to current treatments.",
     objective: 'My primary objective was to familiarize myself with n8n and workflow automation tools. My secondary objective was to limit the mental strain required to remain current with advancements to treatments for CF.',
     problem: 'The action of tracking updates to medical journals or scientific publications is a mentally taxing and time consuming task. It becomes even more difficult when trying to decipher if the information or advancements being discussed are relevant. We aim to reduce the time and mental capacity needed to remain current with medical advancements.',
-    solution: 'Our application provides a semantic search interface where researchers can ask questions in natural language. The backend uses a fine-tuned language model to scan and analyze thousands of documents, returning concise summaries, relevant excerpts, and links to the source papers.',
+    solution: {
+      description: "To help limit the time and mental capacity required to remain current on medical advancements, as well as what these advancements mean for the current treatments, we enlisted the help of a team of AI researchers.\n\nMeet the team:",
+      items: [
+        { title: 'Research Leader', description: 'Responsible for identifying the medical advancements and creates a research backed table of contents.' },
+        { title: 'Project Planner', description: 'Responsible for breaking out each of the advancements into chapters and creating a detailed prompt for each.' },
+        { title: 'Research Team', description: 'Responsible for performing the deep-dive into one of the advancements that have been identified.' },
+        { title: 'Editor', description: 'The editor synthesizes the information from the research team and project planner and creates a final compiled version.' }
+      ],
+      conclusion: "Once the team has completed their research project, the final version is then emailed to me to consume."
+    },
     videoUrl: 'https://www.youtube.com/embed/TirLWJztPEE',
     techStack: ['Python', 'Flask', 'React', 'Next.js', 'PyTorch', 'Hugging Face Transformers', 'Pinecone', 'Docker'],
   },
@@ -37,7 +48,9 @@ export const projects: Project[] = [
     overview: "Pina Picante is a salsa brand that my girlfriend and I are launching. We have established our recipe and the stable shelf-life requirements. To assist with our efforts, I have created the following website with V0 and used vercel to deploy to our custom domain.",
     objective: 'Create an ecommerce platform to help grow brand recognition and better share out story with the community.',
     problem: 'The primary problem that we aim to solve is that there are not great salsa options along the central coast even though there is such a rich agriculture scene. We aimed to help solve this problem by creating a platform that highlighted the importance of agriculture while spreading awareness about our salsa products.',
-    solution: 'The website features bold, professional product photography, an engaging "Our Story" section, and a simple, three-step checkout process. We integrated a popular e-commerce backend for easy order management and inventory tracking.',
+    solution: {
+      description: 'The website features bold, professional product photography, an engaging "Our Story" section, and a simple, three-step checkout process. We integrated a popular e-commerce backend for easy order management and inventory tracking.'
+    },
     liveUrl: 'https://www.pinapicantesalsa.com/',
     techStack: ['Shopify', 'Liquid', 'JavaScript', 'CSS/Sass', 'Figma', 'Klaviyo'],
   },

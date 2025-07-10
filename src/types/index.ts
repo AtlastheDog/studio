@@ -1,3 +1,12 @@
+export type Solution = {
+  description: string;
+  items?: {
+    title: string;
+    description: string;
+  }[];
+  conclusion?: string;
+};
+
 export type Project = {
   slug: string;
   title: string;
@@ -8,7 +17,7 @@ export type Project = {
   overview: string;
   objective: string;
   problem: string;
-  solution: string;
+  solution: Solution;
   videoUrl?: string;
   liveUrl?: string;
   techStack: string[];

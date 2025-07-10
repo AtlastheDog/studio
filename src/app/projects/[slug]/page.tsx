@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, ExternalLink } from "lucide-react";
+import { CheckCircle, ExternalLink, Dot } from "lucide-react";
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -83,8 +83,23 @@ export default function ProjectDetailsPage({ params }: { params: { slug: string 
         </div>
 
         <div className="bg-muted p-8 rounded-lg my-12">
-            <h2 className="font-headline text-3xl font-bold text-primary mb-4">Solution & Functionality</h2>
-            <p className="text-lg text-foreground/90">{project.solution}</p>
+            <h2 className="font-headline text-3xl font-bold text-primary mb-6">Solution & Functionality</h2>
+            <div className="space-y-6 text-lg text-foreground/90">
+                <p className="whitespace-pre-line">{project.solution.description}</p>
+                {project.solution.items && (
+                    <ul className="space-y-4 pl-4">
+                        {project.solution.items.map((item, index) => (
+                            <li key={index} className="flex flex-col sm:flex-row">
+                                <span className="font-semibold text-primary w-full sm:w-40 mb-1 sm:mb-0 shrink-0">{item.title}:</span>
+                                <span className="flex-grow">{item.description}</span>
+                            </li>
+                        ))}
+                    </ul>
+                )}
+                {project.solution.conclusion && (
+                    <p>{project.solution.conclusion}</p>
+                )}
+            </div>
         </div>
 
         <div>
