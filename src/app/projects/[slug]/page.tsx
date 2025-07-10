@@ -59,7 +59,7 @@ export default function ProjectDetailsPage({ params }: { params: { slug: string 
                 src={project.videoUrl}
                 title={`${project.title} Video Walkthrough`}
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
                 className="w-full h-full rounded-lg shadow-lg"
               ></iframe>

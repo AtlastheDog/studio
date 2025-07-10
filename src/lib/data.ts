@@ -18,7 +18,7 @@ export const projects: Project[] = [
     slug: 'cystic-fibrosis-research-assistant',
     title: 'Cystic Fibrosis Research Assistant',
     description: 'An AI-powered tool to help researchers quickly parse and analyze scientific papers related to Cystic Fibrosis.',
-    image: '/CF-research-assistant.png',
+    image: '/CF-research-assistant.png?v=2',
     imageHint: 'AI workflow',
     imageFit: 'contain',
     overview: 'This project leverages natural language processing (NLP) to create a smart research assistant. It can ingest a large corpus of medical literature, extract key information, identify trends, and answer specific queries related to Cystic Fibrosis research.',
