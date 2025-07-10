@@ -32,7 +32,7 @@ export default function Home() {
             </div>
             <div className="order-1 md:order-2">
                <Image
-                  src="/20250703_112450.jpg"
+                  src="/Screenshot%202025-07-03%20at%201.29.30%E2%80%AFPM.png"
                   alt="A professional headshot of Matt Casey"
                   width={600}
                   height={600}
@@ -43,6 +43,28 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      <section className="py-24 sm:py-32 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center mb-12">
+              A Quick Introduction
+            </h2>
+            <div className="aspect-video rounded-lg overflow-hidden shadow-2xl">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/TirLWJztPEE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <section className="py-24 sm:py-32 bg-muted">
         <div className="container mx-auto px-4">
