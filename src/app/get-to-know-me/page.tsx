@@ -55,7 +55,7 @@ export default function GetToKnowMePage() {
                         I grew up fascinated by how things work, which led me from dismantling old electronics to building my first websites. My journey into tech was driven by a desire to not just build, but to solve real-world problems for real people.
                     </p>
                     <p>
-                        This path has taught me the importance of empathy in design, the power of collaboration, and the thrill of seeing a complex project come to life. When I'm not coding, I'm usually exploring new ideas, whether that's through a book, a conversation, or out exploring unfamiliar places.
+                        This path has taught me the importance of empathy in design, the power of collaboration, and the thrill of seeing a complex project come to life. When I am not working, I'm usually exploring new ideas, whether that's through a book, a conversation, trying out new tools, or even exploring the Central Coast.
                     </p>
                 </CardContent>
             </Card>
