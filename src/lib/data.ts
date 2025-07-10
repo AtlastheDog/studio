@@ -1,3 +1,4 @@
+
 import type { Project, Accomplishment } from '@/types';
 
 export const projects: Project[] = [
@@ -37,7 +38,7 @@ export const projects: Project[] = [
       conclusion: "Once the team has completed their research project, the final version is then emailed to me to consume."
     },
     videoUrl: 'https://www.youtube.com/embed/TirLWJztPEE',
-    techStack: ['Python', 'Flask', 'React', 'Next.js', 'PyTorch', 'Hugging Face Transformers', 'Pinecone', 'Docker'],
+    techStack: ['n8n', 'Perplexity Sonar', 'JavaScript', 'GPT-API', 'LangGraph', 'Python Scripting'],
   },
   {
     slug: 'pina-picante-salsa',
