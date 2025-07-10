@@ -47,7 +47,7 @@ const readingList = {
         books: [
             "Great by Choice - Jim Collins",
             "Deep Work - Cal Newport",
-            "Smart Brevity: The power of saying more with less - Jim VandeHei"
+            "Build - Tony Fadell"
         ]
     },
     productManagement: {
