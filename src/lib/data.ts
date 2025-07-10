@@ -25,7 +25,7 @@ export const projects: Project[] = [
     objective: 'Accelerate the pace of Cystic Fibrosis research by providing scientists with a tool that can quickly synthesize vast amounts of information.',
     problem: 'The volume of published research grows exponentially, making it impossible for scientists to stay fully up-to-date. Finding specific data points or connections across thousands of papers is a manual and time-consuming task.',
     solution: 'Our application provides a semantic search interface where researchers can ask questions in natural language. The backend uses a fine-tuned language model to scan and analyze thousands of documents, returning concise summaries, relevant excerpts, and links to the source papers.',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    videoUrl: 'https://www.youtube.com/embed/TirLWJztPEE',
     techStack: ['Python', 'Flask', 'React', 'Next.js', 'PyTorch', 'Hugging Face Transformers', 'Pinecone', 'Docker'],
   },
   {
