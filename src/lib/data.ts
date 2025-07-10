@@ -23,7 +23,7 @@ export const projects: Project[] = [
     imageFit: 'contain',
     overview: "This project leverages natural language processing (NLP) to create a smart research team. This workflow identifies recent medical advancements, performs deep research on the topics, and compiles the information in an easy to digest email focused on highlighting the impacts to current treatments.",
     objective: 'My primary objective was to familiarize myself with n8n and workflow automation tools. My secondary objective was to limit the mental strain required to remain current with advancements to treatments for CF.',
-    problem: 'The volume of published research grows exponentially, making it impossible for scientists to stay fully up-to-date. Finding specific data points or connections across thousands of papers is a manual and time-consuming task.',
+    problem: 'The action of tracking updates to medical journals or scientific publications is a mentally taxing and time consuming task. It becomes even more difficult when trying to decipher if the information or advancement being discussed is relevant. We aim to reduce the time and mental capacity needed to remain current with medical advancements.',
     solution: 'Our application provides a semantic search interface where researchers can ask questions in natural language. The backend uses a fine-tuned language model to scan and analyze thousands of documents, returning concise summaries, relevant excerpts, and links to the source papers.',
     videoUrl: 'https://www.youtube.com/embed/TirLWJztPEE',
     techStack: ['Python', 'Flask', 'React', 'Next.js', 'PyTorch', 'Hugging Face Transformers', 'Pinecone', 'Docker'],
