@@ -22,7 +22,7 @@ export const projects: Project[] = [
     imageHint: 'AI workflow',
     imageFit: 'contain',
     overview: "This project leverages natural language processing (NLP) to create a smart research team. This workflow identifies recent medical advancements, performs deep research on the topics, and compiles the information in an easy to digest email focused on highlighting the impacts to current treatments.",
-    objective: 'Accelerate the pace of Cystic Fibrosis research by providing scientists with a tool that can quickly synthesize vast amounts of information.',
+    objective: 'My primary objective was to familiarize myself with n8n and workflow automation tools. My secondary objective was to limit the mental strain required to remain current with advancements to treatments for CF.',
     problem: 'The volume of published research grows exponentially, making it impossible for scientists to stay fully up-to-date. Finding specific data points or connections across thousands of papers is a manual and time-consuming task.',
     solution: 'Our application provides a semantic search interface where researchers can ask questions in natural language. The backend uses a fine-tuned language model to scan and analyze thousands of documents, returning concise summaries, relevant excerpts, and links to the source papers.',
     videoUrl: 'https://www.youtube.com/embed/TirLWJztPEE',
