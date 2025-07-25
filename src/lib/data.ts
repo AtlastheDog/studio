@@ -50,7 +50,8 @@ export const projects: Project[] = [
     objective: 'Create an ecommerce platform to help grow brand recognition and better share out story with the community.',
     problem: 'The primary problem that we aim to solve is that there are not great salsa options along the central coast even though there is such a rich agriculture scene. We aimed to help solve this problem by creating a platform that highlighted the importance of agriculture while spreading awareness about our salsa products.',
     solution: {
-      description: 'The website features bold, professional product photography, an engaging "Our Story" section, and a simple, three-step checkout process. We integrated a popular e-commerce backend for easy order management and inventory tracking.'
+      description: 'To help promote our product and mission to highlight local agriculture, our primary goals and milestones are:\n\n1. Gather market feedback as quickly and with as low cost as possible.\n2. Complete necessary accreditations to achieve shelf-stable requirements and expiration dates.\n3. Create prototypes of packaging and printed labels.\n4. Launch Farmer\'s Market Campaign.',
+      conclusion: 'This website is intended to highlight our products, mission, and to provide visitors with a seamless way to express interest or support in our business.'
     },
     liveUrl: 'https://www.pinapicantesalsa.com/',
     techStack: ['Shopify', 'Liquid', 'JavaScript', 'CSS/Sass', 'Figma', 'Klaviyo'],
