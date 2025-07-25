@@ -54,7 +54,7 @@ export const projects: Project[] = [
       conclusion: 'This website is intended to highlight our products, mission, and to provide visitors with a seamless way to express interest or support in our business.'
     },
     liveUrl: 'https://www.pinapicantesalsa.com/',
-    techStack: ['Shopify', 'Liquid', 'JavaScript', 'CSS/Sass', 'Figma', 'Klaviyo'],
+    techStack: ['V0', 'Vercel', 'Next.js', 'Figma', 'JavaScript'],
   },
 ];
 
